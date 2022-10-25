@@ -4,7 +4,7 @@
     transition-duration: 1s;
     transition-delay: 0.2s;
     margin: 0;
-    height: 100%;
+
     box-sizing: border-box;
     background: linear-gradient(320deg, rgba(27, 27, 27),rgba(52, 52, 52),rgba(34, 34, 34));
 }
