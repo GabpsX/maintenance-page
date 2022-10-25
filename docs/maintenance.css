@@ -1,51 +1,253 @@
-*{
-    user-select: none;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@media only screen and (max-width: 600px) {
+    html, body {
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(320deg, rgba(27, 27, 27),rgba(52, 52, 52),rgba(34, 34, 34));
+}
+header p{
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 1.2em;
+}
+header{
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    color: white;
+    height: 80px;
+   
+    margin-left: auto;
+    margin-right: auto;
+
 }
 body{
-    text-align: center;
-    margin:0.1cm;
-    padding:0;
+
+    background: linear-gradient();
 }
-section {
-    margin:0;
-    padding:0;
+section div img{
+    width: 70%;
+    height: 60%;
+
+}
+section div {
+    display: flex;
+    justify-content: space-around;
+
     border-style: solid;
     border-width: 0.5em;
     border-radius: 1em;
     border-color: #B678E6;
-    width: 95%;
-    max-height: 100vh;
-    height: 85vh;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+
 }
-img {
-    max-width: 20%;
-    padding-top: 3.5em;
-    user-select: none;
-    margin-top: 1%;
-    margin-bottom: 8%;
-    width: 30%;
-    height: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
-section {
-    position: relative;
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html, body {
+        transition-duration: 1s;
+        transition-delay: 0.2s;
+        margin: 0;
+        height: 100%;
+        box-sizing: border-box;
+        background: linear-gradient(320deg, rgba(27, 27, 27),rgba(52, 52, 52),rgba(34, 34, 34));
+    }
+    header p{
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 1.2em;
+    }
+    header{
+        transition-duration: 1s;
+        transition-delay: 0.2s;
+        color: white;
+        height: 80px;
+       
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    body{
+    
+        background: linear-gradient();
+    }
+    section div img{
+        width: 70%;
+        height: 60%;
+    
+    }
+    section div {
+        display: flex;
+        justify-content: space-around;
+    
+        border-style: solid;
+        border-width: 0.5em;
+        border-radius: 1em;
+        border-color: #B678E6;
+    
+    
+    }
 }
-  
-#image {
-    position: absolute;
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html, body {
+        transition-duration: 1s;
+        transition-delay: 0.2s;
+        margin: 0;
+        height: 100%;
+        box-sizing: border-box;
+        background: linear-gradient(320deg, rgba(27, 27, 27),rgba(52, 52, 52),rgba(34, 34, 34));
+    }
+    header p{
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+    header{
+        transition-duration: 1s;
+        transition-delay: 0.2s;
+        color: white;
+        height: 80px;
+       
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    body{
+    
+        background: linear-gradient();
+    }
+    section div img{
+        width: 70%;
+        height: 60%;
+    
+    }
+    section div {
+        display: flex;
+        justify-content: space-around;
+    
+        border-style: solid;
+        border-width: 0.5em;
+        border-radius: 1em;
+        border-color: #B678E6;
+    
+    
+    }
 }
-#texto { 
-    font-size: clamp(1em, 1em + 1vw, 2.5em);
-    top: 50px;
-    position: relative;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #B678E6;
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    html, body {
+        transition-duration: 1s;
+        transition-delay: 0.2s;
+        margin: 0;
+        height: 100%;
+        box-sizing: border-box;
+        background: linear-gradient(320deg, rgba(27, 27, 27),rgba(52, 52, 52),rgba(34, 34, 34));
+    }
+    header p{
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 1.2em;
+    }
+    header{
+        transition-duration: 1s;
+        transition-delay: 0.2s;
+        color: white;
+        height: 80px;
+       
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    body{
+    
+        background: linear-gradient();
+    }
+    section div img{
+        width: 70%;
+        height: 60%;
+    
+    }
+    section div {
+        display: flex;
+        justify-content: space-around;
+    
+        border-style: solid;
+        border-width: 0.5em;
+        border-radius: 1em;
+        border-color: #B678E6;
+    
+    
+    }
 }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    html, body {
+        transition-duration: 1s;
+        transition-delay: 0.2s;
+        margin: 0;
+        height: 100%;
+        box-sizing: border-box;
+        background: linear-gradient(320deg, rgba(27, 27, 27),rgba(52, 52, 52),rgba(34, 34, 34));
+    }
+    header p{
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 1.2em;
+    }
+    header{
+        transition-duration: 1s;
+        transition-delay: 0.2s;
+        color: white;
+        height: 80px;
+       
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    body{
+    
+        background: linear-gradient();
+    }
+    section div img{
+        width: 70%;
+        height: 60%;
+    
+    }
+    section div {
+        display: flex;
+        justify-content: space-around;
+    
+        border-style: solid;
+        border-width: 0.5em;
+        border-radius: 1em;
+        border-color: #B678E6;
+    
+    
+    }
+}
+
+
+
+
 footer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 90px;
@@ -85,101 +287,4 @@ footer{
     position: relative;
     width: 95%;
     height: 50px;
-}
-section:hover{
-    border-color: #B678E6;
-}
-
-
-
-/*mobile 2*/
-
-@media(max-width: 1000px){
-    section {
-        font-weight: 1000;
-        margin:0;
-        padding:0;
-        border-style: solid;
-        border-width: 0.5em;
-        border-radius: 1em;
-        border-color: #d7bbf1;
-        width: 95%;
-        max-height: 100%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-height: 100vh;
-        height: 75vh;
-    }
-    img {
-        max-width: 100%;
-        padding-top: 3.5em;
-        user-select: none;
-        margin-top: 1%;
-        margin-bottom: 8%;
-        width: 45%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-@media(max-width:700px){
-    section {
-        border-color: #23d571;
-        max-height: 100vh;
-        font-weight: 1000;
-        height: 75vh;
-     }
-    img {
-        max-width: 100%;
-        padding-top: 3.5em;
-        user-select: none;
-        margin-top: 1%;
-        margin-bottom: 8%;
-        width: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-@media(max-width:500px){
-    section {
-        border-color: #7abae4;
-        max-height: 100vh;
-        font-weight: 1000;
-        height: 75vh;
-     }
-    img {
-        max-width: 100%;
-        padding-top: 3.5em;
-        user-select: none;
-        margin-top: 1%;
-        margin-bottom: 8%;
-        width: 65%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media(max-width:400px){
-    section {
-        border-color: #b89dd4;
-        font-weight: 1000;
-        max-height: 100vh;
-        height: 75vh;
-     }
-
-    img {
-        max-width: 100%;
-        padding-top: 3.5em;
-        user-select: none;
-        margin-top: 1%;
-        margin-bottom: 8%;
-        width: 98%;
-        height: 67%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }

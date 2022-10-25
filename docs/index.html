@@ -1,24 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="shortcut icon" href="#.ico">
-    <link rel="stylesheet" href="maintenance.css">
-    <title>page in maintenance</title>
-</head>
-<body>
-    <section>
-        <br>
-        <br>
-        <br>
-        <label id="texto">We are under maintenance</label>
-        <div><img src="maintenance.png" alt=""></div>
-    </section>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=., user-scalable=no">
 
-       <footer>
-        <div class="filho">© 2022: <a href="">Developed by GabpsX.</a></div>
-    </footer>
+    <link rel="stylesheet" href="maintenance.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>We'll be back soon!</title>
+</head>
+
+<body>
+        <header class="top-header">
+            <p id="texto">We'll be back soon!</p>
+        </header>
+        
+        <section>
+            <div><img src="maintenance.png" alt=""></div>
+        </section>
+
+        <footer>
+            <div class="footer_">© 2022: <a href="">Developed by GabpsX.</a></div>
+        </footer>
+
+        <!-- jq-->
+        <script>
+            $('.top-header').css({'display':'flex', 'justify-content':'space-between', 'align-items': 'center', 'margin-bottom': '2%'})
+        </script>
 </body>
+
 </html>
